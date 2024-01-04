@@ -33,8 +33,12 @@ function commonItems(arr1, arr2) {
     const result = {}
 
     for (var i = 0; i < arr1.length; i++){
-
-
+        result[arr1[i]] = 'true';
+        console.log(result);
+        if(arr2[i] in result){
+            console.log('Object', result[arr2[i]]);
+            break;
+        }
     }
 
 }
