@@ -1,0 +1,14 @@
+Hash tables.
+
+Hash tables or hash maps?
+
+Maps.
+
+Unordered maps.
+
+Dictionaries, objects.
+
+ see them a lot in databases and caches, and they're extremely useful.
+ key value pairs
+ memory addresses
+ tc- O(1)
