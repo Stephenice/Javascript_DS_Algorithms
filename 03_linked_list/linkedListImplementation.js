@@ -23,6 +23,7 @@ class LinkedList{
         this.tail = newNode;
         this.length++;
         // console.log(this)
+        console.log(this.head)
         return this;
     }
 
@@ -35,6 +36,8 @@ class LinkedList{
         // console.log(this)
         return this;
     }
+
+    
 }
 
 const list = new LinkedList(10)
